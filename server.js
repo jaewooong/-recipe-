@@ -9,21 +9,21 @@ app.listen(8080, function(){
 
 // 메인 홈페이지
 app.get('/index', function(req, res){
-    res.sendFile(__dirname + '/index.html');
+    res.sendFile(__dirname + '/pages/index.html');
 });
 
 // 오늘의 추천
 app.get('/recommend', function(req, res){
-    res.sendFile(__dirname + '/recommend.html');
+    res.sendFile(__dirname + '/pages/recommend.html');
 });
 
 // 게시판
 app.get('/board', function(req, res){
-    res.sendFile(__dirname + '/board.html');
+    res.sendFile(__dirname + '/pages/board.html');
 });
 
 // top
 app.get('/top', function(req, res){
-    res.sendFile(__dirname + '/top.html');
+    res.sendFile(__dirname + '/pages/top.html');
 });
 
