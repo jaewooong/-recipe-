@@ -26,3 +26,4 @@ app.get('/board', function(req, res){
 app.get('/top', function(req, res){
     res.sendFile(__dirname + '/top.html');
 });
+
