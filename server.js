@@ -27,3 +27,5 @@ app.get('/top', function(req, res){
     res.sendFile(__dirname + '/pages/top.html');
 });
 
+// 이미지 띄우기
+app.use(express.static('images'));
